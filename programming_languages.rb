@@ -2,8 +2,16 @@ def reformat_languages(languages)
   # your code here
   out ={}
   languages.each{|style,info|
-  puts style
-  puts info}
+    info.each{|language,type|
+        if out.has_key?(language)
+          out[language][:style].push(style)
+        else
+          out[language]={
+            :type=>type,
+            :style=>[style]
+          }
+        end
+      }}
 end
 
 reformat_languages(
@@ -35,7 +43,7 @@ reformat_languages(
     :javascript => {
       :type => "interpreted"
     }
- 
+
   }
 }
 )
