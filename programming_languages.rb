@@ -16,37 +16,37 @@ def reformat_languages(languages)
     out
 end
 
-#puts reformat_languages(
-#{
-#  :oo => {
-#    :ruby => {
-#      :type => "interpreted"
-#    },
-#    :javascript => {
-#      :type => "interpreted"
-#    },
-#    :python => {
-#      :type => "interpreted"
-#    },
-#    :java => {
-#      :type => "compiled"
-#    }
-#  },
-#  :functional => {
-#    :clojure => {
-#      :type => "compiled"
-#    },
-#    :erlang => {
-#      :type => "compiled"
-#    },
-#    :scala => {
-#      :type => "compiled"
-#    },
-#    :javascript => {
-#      :type => "interpreted"
-#    }
-#
-#  }
-#}
-#)
-#
+puts reformat_languages(
+{
+  :oo => {
+    :ruby => {
+      :type => "interpreted"
+    },
+    :javascript => {
+      :type => "interpreted"
+    },
+    :python => {
+      :type => "interpreted"
+    },
+    :java => {
+      :type => "compiled"
+    }
+  },
+  :functional => {
+    :clojure => {
+      :type => "compiled"
+    },
+    :erlang => {
+      :type => "compiled"
+    },
+    :scala => {
+      :type => "compiled"
+    },
+    :javascript => {
+      :type => "interpreted"
+    }
+
+  }
+}
+)
+
