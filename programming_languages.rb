@@ -12,6 +12,7 @@ def reformat_languages(languages)
           }
         end
       }}
+    out
 end
 
 puts reformat_languages(
