@@ -14,7 +14,7 @@ def reformat_languages(languages)
       }}
 end
 
-reformat_languages(
+puts reformat_languages(
 {
   :oo => {
     :ruby => {
