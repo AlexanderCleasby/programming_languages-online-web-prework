@@ -9,7 +9,7 @@ def reformat_languages(languages)
         else
 
            out[language]={
-            :type=>type.value,
+            :type=>type,
             :style=>[style]
           }
         end
