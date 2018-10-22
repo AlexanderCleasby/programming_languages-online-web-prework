@@ -3,7 +3,7 @@ def reformat_languages(languages)
   out ={}
   languages.each{|style,info|
     info.each{|language,type|
-        puts style
+        puts type
         if out.has_key?(language)
           out[language][:style].push(style)
         else
