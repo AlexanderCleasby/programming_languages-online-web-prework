@@ -7,8 +7,8 @@ def reformat_languages(languages)
         if out.has_key?(language)
           out[language][:style].push(style)
         else
-          
-          puts out[language]={
+
+           out[language]={
             :type=>type,
             :style=>[style]
           }
